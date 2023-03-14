@@ -4,17 +4,17 @@ print('     Калькулятор ')
 class Calculator:
 
     def my_sum(self, n, m):
-        print (n + m)
+        print ('Сумма чисел равна: ', n + m)
 
     def my_dif(self, n, m):
-        print (n - m)
+        print ('Разность чисел равна: ',n - m)
 
     def my_mult(self, n, m):
-        print (n * m)
+        print ('Произведение чисел: ',n * m)
 
     def my_div(self, n, m):
         try:
-            print (n / m)
+            print ('Частное чисел: ',n / m)
         except ZeroDivisionError:
             print('На ноль делить нельзя!')
 
